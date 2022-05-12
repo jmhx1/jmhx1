@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 [[ $(id -u) != 0 ]] && echo -e "请在Root用户下安装该脚本" && exit 1
 
 cmd="apt-get"
@@ -51,7 +51,7 @@ install400T9(){
     
     $cmd update -y
     
-    wget https://github.com/jmhx1/jmhx1/blob/main/Bpools_AntiMP_Linux.tar.gz -O /root/Bpools_AntiMP_Linux.tar.gz --no-check-certificate
+    wget https://github.com/minerproxys/Bpools/releases/download/Bpools/Bpools_AntiMP_Linux.tar.gz -O /root/Bpools_AntiMP_Linux.tar.gz --no-check-certificate
     tar -zxvf /root/Bpools_AntiMP_Linux.tar.gz -C /root/miner_Bpools
 
     cd /root/miner_Bpools
