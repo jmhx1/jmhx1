@@ -87,11 +87,12 @@ install400T9(){
     sleep 2s
     echo ""
 
+    echo "1.请记录以下端口、密码等数据。"
     echo "----------------------------------------------------------------"
     echo "Bpools参数："
     cd /root/miner_Bpools
     cat "/root/miner_Bpools/wallet.yml"
-    echo "Bpools在这里：  cat /root/miner_Bpools/wallet.yml  "
+    echo "Bpools 端口、密码、抽水钱包。在这里：  cat /root/miner_Bpools/wallet.yml  "
     
     echo "----------------------------------------------------------------"
     echo "minerProxy400T9 参数："
@@ -284,13 +285,17 @@ temp(){
 }
 
 echo "======================================================="
-echo "脚本默认安装到/root/miner_Bpools"
-echo "脚本自动开启Supervisors守护"
-echo "  1、安装 二次元400T9   重定向版 * (Install)"
-echo "  2、安装 MinerProxy530 重定向版 --暂未开放"
-echo "  3、安装 曹操CC8.0     重定向版 --暂未开放"
-echo "  4、安装 GoMinerV142   重定向版 --暂未开放"
-echo "  5、安装 小黄人        重定向版-- 暂未开放"
+echo "Bpools一鍵腳本，脚本默认安装到/root/miner_Bpools"
+echo "脚本自动开启Supervisors守护，守护Bpools和抽水软件"
+echo "                               Bpools版本：V5.0"
+echo "======================================================="
+echo "======================================================="
+echo ""
+echo "  1、安装 二次元400T9   重定向版  * (Install)"
+echo "  2、安装 MinerProxy530 重定向版  * (Install)"
+echo "  3、安装 曹操CC8.0     重定向版 * (Install)"
+echo "  4、安装 GoMinerV142   重定向版  * (Install)"
+echo "  5、安装 小黄人        重定向版 + (Install)"
 echo "  6、查看 守护 状态* (Check)"
 echo "  7、一鍵解除Linux連接數限制,需手動重啟系統生效"
 echo "  8、查看當前系統連接數限制 (View the current system connection limit)"
