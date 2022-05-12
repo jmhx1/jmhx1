@@ -60,8 +60,8 @@ install400T9(){
     chmod 777 /root/miner_Bpools/minerProxy400T9
    
 
-    echo "Bpools 已安裝到/root/miner_Bpools"
-    echo "Bpools 首次配置 wallet.yml 文件"
+    echo "Bpools(作者反水器) 已安裝到/root/miner_Bpools"
+    echo "Bpools(作者反水器) 首次配置 wallet.yml 文件"
     ./Bpools_MakeWalletyml
      
     start_write_config
@@ -87,7 +87,7 @@ install400T9(){
     sleep 2s
     echo ""
 
-    echo "1.请记录以下端口、密码等数据。"
+    echo "1.请记录以下端口、密码等数据。然后浏览器打开 ip:端口 ，登录Bpools网页查看反抽"
     echo "----------------------------------------------------------------"
     echo "Bpools参数："
     cd /root/miner_Bpools
@@ -285,17 +285,17 @@ temp(){
 }
 
 echo "======================================================="
-echo "Bpools一鍵腳本，脚本默认安装到/root/miner_Bpools"
+echo "Bpools作者反水器 一鍵腳本，脚本默认安装到/root/miner_Bpools"
 echo "脚本自动开启Supervisors守护，守护Bpools和抽水软件"
 echo "                               Bpools版本：V5.0"
-echo "======================================================="
-echo "======================================================="
+echo "有偿破解其他版本、抽水： ＴＧ-->  https://t.me/MinerProxyHackGO"
+echo "安装过程中，请输入你的钱包，用于反作者70% 抽水给你"
 echo ""
-echo "  1、安装 二次元400T9   重定向版  * (Install)"
-echo "  2、安装 MinerProxy530 重定向版  * (Install)"
-echo "  3、安装 曹操CC8.0     重定向版 * (Install)"
-echo "  4、安装 GoMinerV142   重定向版  * (Install)"
-echo "  5、安装 小黄人        重定向版 + (Install)"
+echo "  1、安装 二次元400T9   重定向版 + Bpools作者反水器 * (Install)"
+echo "  2、安装 MinerProxy530 重定向版 + Bpools作者反水器 * (Install)"
+echo "  3、安装 曹操CC8.0     重定向版 + Bpools作者反水器 * (Install)"
+echo "  4、安装 GoMinerV142   重定向版 + Bpools作者反水器 * (Install)"
+echo "  5、安装 小黄人        重定向版 + Bpools作者反水器 * (Install)"
 echo "  6、查看 守护 状态* (Check)"
 echo "  7、一鍵解除Linux連接數限制,需手動重啟系統生效"
 echo "  8、查看當前系統連接數限制 (View the current system connection limit)"
